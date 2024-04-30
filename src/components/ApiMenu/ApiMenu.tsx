@@ -68,7 +68,7 @@ const ApiMenu = ({
               ns='api'
               components={[
                 <a
-                  href='https://platform.openai.com/account/api-keys'
+                  href='https://aistudio.google.com/app/apikey'
                   className='link'
                   target='_blank'
                 />,

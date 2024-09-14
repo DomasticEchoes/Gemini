@@ -51,6 +51,9 @@ export interface Folder {
 
 export type ModelOptions =
   | 'gemini-1.5-pro'
+  | 'gemini-1.5-flash'
+  | 'gemini-1.5-pro-exp-0827'
+  | 'gemini-1.5-flash-exp-0827'
 
 export type TotalTokenUsed = {
   [model in ModelOptions]?: {

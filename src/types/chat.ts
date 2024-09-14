@@ -50,7 +50,7 @@ export interface Folder {
 }
 
 export type ModelOptions =
-  | 'gemini-1.5-pro-latest'
+  | 'gemini-1.5-pro'
 
 export type TotalTokenUsed = {
   [model in ModelOptions]?: {

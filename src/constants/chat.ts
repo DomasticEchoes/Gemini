@@ -14,13 +14,20 @@ const dateString =
 export const _defaultSystemMessage = '';
 
 export const modelOptions: ModelOptions[] = [
-  'gemini-1.5-pro-latest'
+  'gemini-1.5-pro',
+  'gemini-1.5-flash',
+  'gemini-1.5-pro-exp-0827',
+  'gemini-1.5-flash-exp-0827'
 ];
 
-export const defaultModel = 'gemini-1.5-pro-latest';
+export const defaultModel = 'gemini-1.5-pro';
 
 export const modelMaxToken = {
-  'gemini-1.5-pro-latest': 1000000
+  'gemini-1.5-pro-latest': 1000000,
+  'gemini-1.5-pro': 2097152,
+  'gemini-1.5-flash': 1048576,
+  'gemini-1.5-pro-exp-0827': 2097152,
+  'gemini-1.5-flash-exp-0827': 1048576
 };
 
 export const modelCost = {

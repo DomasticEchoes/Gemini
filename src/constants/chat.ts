@@ -30,7 +30,12 @@ export const modelMaxToken = {
   'gemini-1.5-pro': 2097152,
   'gemini-1.5-flash': 1048576,
   'gemini-1.5-pro-exp-0827': 2097152,
-  'gemini-1.5-flash-exp-0827': 1048576
+  'gemini-1.5-flash-exp-0827': 1048576,
+  'gemini-1.5-pro-002': 2000000,
+  'gemini-1.5-flash-002': 1000000,
+  'gemini-1.5-flash-8b-exp-0924': 1000000
+  
+  
 };
 
 export const modelCost = {

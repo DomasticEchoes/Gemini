@@ -129,7 +129,7 @@ const ContentView = memo(
                 p,
               }}
             >
-              {content}
+              {content.strip()}
             </ReactMarkdown>
           ) : (
             <span className='whitespace-pre-wrap'>{content}</span>

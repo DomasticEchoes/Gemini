@@ -16,26 +16,29 @@ export const _defaultSystemMessage = '';
 export const modelOptions: ModelOptions[] = [
   'gemini-1.5-pro',
   'gemini-1.5-flash',
-  'gemini-1.5-pro-exp-0827',
-  'gemini-1.5-flash-exp-0827',
-  'gemini-1.5-pro-002',
-  'gemini-1.5-flash-002',
-  'gemini-1.5-flash-8b-exp-0924'
+  'gemini-1.5-flash-8b',
+  'gemini-2.0-flash-exp',
+  'gemini-exp-1206',
+  'gemini-2.0-flash-thinking-exp-1219',
+  'learnlm-1.5-pro-experimental',
+  'gemma-2-2b-it',
+  'gemma-2-9b-it',
+  'gemma-2-27b-it'
 ];
 
 export const defaultModel = 'gemini-1.5-pro';
 
 export const modelMaxToken = {
-  'gemini-1.5-pro-latest': 1000000,
-  'gemini-1.5-pro': 2097152,
-  'gemini-1.5-flash': 1048576,
-  'gemini-1.5-pro-exp-0827': 2097152,
-  'gemini-1.5-flash-exp-0827': 1048576,
-  'gemini-1.5-pro-002': 2000000,
-  'gemini-1.5-flash-002': 1000000,
-  'gemini-1.5-flash-8b-exp-0924': 1000000
-  
-  
+  'gemini-1.5-pro': 2000000,
+  'gemini-1.5-flash': 1000000,
+  'gemini-1.5-flash-8b': 1000000,
+  'gemini-2.0-flash-exp': 1048576,
+  'gemini-exp-1206': 2097152,
+  'gemini-2.0-flash-thinking-exp-1219': 32767,
+  'learnlm-1.5-pro-experimental': 32767,
+  'gemma-2-2b-it': 8192,
+  'gemma-2-9b-it': 8192,
+  'gemma-2-27b-it': 8192
 };
 
 export const modelCost = {

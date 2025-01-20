@@ -52,11 +52,14 @@ export interface Folder {
 export type ModelOptions =
   | 'gemini-1.5-pro'
   | 'gemini-1.5-flash'
-  | 'gemini-1.5-pro-exp-0827'
-  | 'gemini-1.5-flash-exp-0827'
-  | 'gemini-1.5-pro-002'
-  | 'gemini-1.5-flash-002'
-  | 'gemini-1.5-flash-8b-exp-0924'
+  | 'gemini-1.5-flash-8b'
+  | 'gemini-2.0-flash-exp'
+  | 'gemini-exp-1206'
+  | 'gemini-2.0-flash-thinking-exp-1219'
+  | 'learnlm-1.5-pro-experimental'
+  | 'gemma-2-2b-it'
+  | 'gemma-2-9b-it'
+  | 'gemma-2-27b-it'
 
 export type TotalTokenUsed = {
   [model in ModelOptions]?: {

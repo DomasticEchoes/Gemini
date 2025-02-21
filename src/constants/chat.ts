@@ -42,7 +42,7 @@ export const modelMaxToken = {
   'gemini-1.5-flash-8b': 1000000,
   'gemma-2-2b-it': 8192,
   'gemma-2-9b-it': 8192,
-  'gemma-2-27b-it: 8192
+  'gemma-2-27b-it': 8192
 };
 
 export const modelCost = {

@@ -14,15 +14,15 @@ const dateString =
 export const _defaultSystemMessage = '';
 
 export const modelOptions: ModelOptions[] = [
+  'gemini-2.5-pro-exp-03-25',
   'gemini-2.0-flash',
-  'gemini-2.0-flash-lite-preview-02-05',
-  'gemini-2.0-pro-exp-02-05',
+  'gemini-2.0-flash-lite',
   'gemini-2.0-flash-thinking-exp-01-21',
-  'gemini-2.0-flash-exp',
   'learnlm-1.5-pro-experimental',
   'gemini-1.5-pro',
   'gemini-1.5-flash',
   'gemini-1.5-flash-8b',
+  'gemma-3-27b-it',
   'gemma-2-2b-it',
   'gemma-2-9b-it',
   'gemma-2-27b-it'
@@ -31,15 +31,15 @@ export const modelOptions: ModelOptions[] = [
 export const defaultModel = 'gemini-1.5-pro';
 
 export const modelMaxToken = {
+  'gemini-2.5-pro-exp-03-25': 1048576,
   'gemini-2.0-flash': 1048576,
-  'gemini-2.0-flash-lite-preview-02-05': 1048576,
-  'gemini-2.0-pro-exp-02-05': 2097152,
+  'gemini-2.0-flash-lite': 1048576,
   'gemini-2.0-flash-thinking-exp-01-21': 1048576,
-  'gemini-2.0-flash-exp': 1048576,
   'learnlm-1.5-pro-experimental': 32767,
   'gemini-1.5-pro': 2000000,
   'gemini-1.5-flash': 1000000,
   'gemini-1.5-flash-8b': 1000000,
+  'gemma-3-27b-it': 131072,
   'gemma-2-2b-it': 8192,
   'gemma-2-9b-it': 8192,
   'gemma-2-27b-it': 8192

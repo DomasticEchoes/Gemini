@@ -50,18 +50,18 @@ export interface Folder {
 }
 
 export type ModelOptions =
-  | 'gemini-2.0-flash'
-  | 'gemini-2.0-flash-lite-preview-02-05'
-  | 'gemini-2.0-pro-exp-02-05'
-  | 'gemini-2.0-flash-thinking-exp-01-21'
-  | 'gemini-2.0-flash-exp'
-  | 'learnlm-1.5-pro-experimental'
-  | 'gemini-1.5-pro'
-  | 'gemini-1.5-flash'
-  | 'gemini-1.5-flash-8b'
-  | 'gemma-2-2b-it'
-  | 'gemma-2-9b-it'
-  | 'gemma-2-27b-it'
+  'gemini-2.5-pro-exp-03-25' |
+  'gemini-2.0-flash' |
+  'gemini-2.0-flash-lite' |
+  'gemini-2.0-flash-thinking-exp-01-21' |
+  'learnlm-1.5-pro-experimental' |
+  'gemini-1.5-pro' |
+  'gemini-1.5-flash' |
+  'gemini-1.5-flash-8b' |
+  'gemma-3-27b-it' |
+  'gemma-2-2b-it' |
+  'gemma-2-9b-it' |
+  'gemma-2-27b-it'
 
 export type TotalTokenUsed = {
   [model in ModelOptions]?: {

@@ -14,42 +14,46 @@ const dateString =
 export const _defaultSystemMessage = '';
 
 export const modelOptions: ModelOptions[] = [
-  'gemini-2.5-pro-exp-03-25',
+  'gemini-2.5-pro',
+  'gemini-2.5-flash',
+  'gemini-2.5-flash-lite',
   'gemini-2.0-flash',
   'gemini-2.0-flash-lite',
-  'gemini-2.0-flash-thinking-exp-01-21',
-  'learnlm-1.5-pro-experimental',
-  'gemini-1.5-pro',
-  'gemini-1.5-flash',
-  'gemini-1.5-flash-8b',
-  'gemma-3-27b-it',
+  'gemma-3n-e2b-it',
+  'gemma-3n-e4b-it',
+  'gemma-3-1b-it',
+  'gemma-3-4b-it',
   'gemma-2-2b-it',
-  'gemma-2-9b-it',
-  'gemma-2-27b-it'
+  'gemma-3-12b-it',
+  'gemma-3-27b-it'
 ];
 
-export const defaultModel = 'gemini-1.5-pro';
+export const defaultModel = 'gemini-2.5-pro';
 
 export const modelMaxToken = {
-  'gemini-2.5-pro-exp-03-25': 1048576,
+  'gemini-2.5-pro': 1048576,
+  'gemini-2.5-flash': 1048576,
+  'gemini-2.5-flash-lite': 1048576,
   'gemini-2.0-flash': 1048576,
   'gemini-2.0-flash-lite': 1048576,
-  'gemini-2.0-flash-thinking-exp-01-21': 1048576,
-  'learnlm-1.5-pro-experimental': 32767,
-  'gemini-1.5-pro': 2000000,
-  'gemini-1.5-flash': 1000000,
-  'gemini-1.5-flash-8b': 1000000,
-  'gemma-3-27b-it': 131072,
-  'gemma-2-2b-it': 8192,
-  'gemma-2-9b-it': 8192,
-  'gemma-2-27b-it': 8192
+  'gemma-3n-e2b-it': 8192,
+  'gemma-3n-e4b-it': 8192,
+  'gemma-3-1b-it': 32768,
+  'gemma-3-4b-it': 32768,
+  'gemma-2-2b-it': 32768,
+  'gemma-3-12b-it': 32768,
+  'gemma-3-27b-it': 131072
 };
 
 export const modelCost = {
-  'gemini-1.5-pro': {
-    prompt: { price: 0, unit: 0 },
-    completion: { price: 0, unit: 0}
-  }
+  'gpt-3.5': {
+    prompt: { price: 0.0015, unit: 1 },
+    completion: { price: 0.002, unit: 1 }
+  },
+  'gpt-4': {
+    prompt: { price: 0.03, unit: 1 },
+    completion: { price: 0.06, unit: 1 }
+  },
 };
 
 export const defaultUserMaxToken = 1000000;

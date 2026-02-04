@@ -14,35 +14,25 @@ const dateString =
 export const _defaultSystemMessage = '';
 
 export const modelOptions: ModelOptions[] = [
+  'gemini-3-pro-preview',
+  'gemini-3-flash-preview',
   'gemini-2.5-pro',
   'gemini-2.5-flash',
   'gemini-2.5-flash-lite',
   'gemini-2.0-flash',
   'gemini-2.0-flash-lite',
-  'gemma-3n-e2b-it',
-  'gemma-3n-e4b-it',
-  'gemma-3-1b-it',
-  'gemma-3-4b-it',
-  'gemma-2-2b-it',
-  'gemma-3-12b-it',
-  'gemma-3-27b-it'
 ];
 
-export const defaultModel = 'gemini-2.5-pro';
+export const defaultModel = 'gemini-3-flash-preview';
 
 export const modelMaxToken = {
+  'gemini-3-pro-preview': 1048576,
+  'gemini-3-flash-preview': 1048576,
   'gemini-2.5-pro': 1048576,
   'gemini-2.5-flash': 1048576,
   'gemini-2.5-flash-lite': 1048576,
   'gemini-2.0-flash': 1048576,
   'gemini-2.0-flash-lite': 1048576,
-  'gemma-3n-e2b-it': 8192,
-  'gemma-3n-e4b-it': 8192,
-  'gemma-3-1b-it': 32768,
-  'gemma-3-4b-it': 32768,
-  'gemma-2-2b-it': 32768,
-  'gemma-3-12b-it': 32768,
-  'gemma-3-27b-it': 131072
 };
 
 export const modelCost = {
